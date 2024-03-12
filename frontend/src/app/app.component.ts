@@ -12,7 +12,7 @@ import { RouterOutlet } from '@angular/router';
 @Component({
   selector: 'app-root',
   template: `
-    Welcome to the Application!
+    Welcomeeeeee to the Application!
   `,
   standalone: true,
 })
