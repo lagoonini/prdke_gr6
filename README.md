@@ -48,7 +48,7 @@ Angular sollte jetzt laufen und unter http://localhost:4200 erreichbar sein.
 ## Anmerkungen
 
 ### 1. Datenbankverbindung
-Eine lokale Oracle19c-Datenbank wurde zu Testzwecken installiert. Eine Oracle-Datenbank wird später vom Institut bereitgestellt. Die Verbindung erfolgt in `.backend/src/resources/application.properties` mit folgendem Code:
+Eine lokale Oracle19c-Datenbank wurde zu Testzwecken installiert. Eine Oracle-Datenbank wird später vom Institut bereitgestellt. Die Verbindung erfolgt in `.backend/src/main/resources/application.properties` mit folgendem Code:
 ```bash
 spring.datasource.url=jdbc:oracle:thin:@localhost:1521:orcl
 spring.datasource.username=username
