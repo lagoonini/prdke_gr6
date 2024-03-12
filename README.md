@@ -45,6 +45,13 @@ npm serve
 Angular sollte jetzt laufen und unter http://localhost:4200 erreichbar sein.
 
 
-## Frontend einrichten mit Angular
+## Anmerkungen
 
-
+### 1. Datenbankverbindung
+Eine lokale Oracle19c-Datenbank wurde zu Testzwecken installiert. Eine Oracle-Datenbank wird später vom Institut bereitgestellt. Die Verbindung erfolgt in `.backend/src/resources/application.properties` mit folgendem Code:
+```bash
+spring.datasource.url=jdbc:oracle:thin:@localhost:1521:orcl
+spring.datasource.username=username
+spring.datasource.password=pass
+spring.datasource.driver-class-name=oracle.jdbc.OracleDriver
+```
